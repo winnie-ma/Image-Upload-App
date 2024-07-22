@@ -25,4 +25,4 @@ In the project directory, you can run different scripts in package.json file, su
 
 ## Screenshot
 
-![image](/images/ImageUpload.png)
+![image](/client/images/ImageUpload.png)
