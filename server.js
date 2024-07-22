@@ -13,7 +13,7 @@ app.use((err, req, res, next) => {
   res.status(500).send("Server Error");
 });
 
-app.post("./upload", (req, res) => {
+app.post("/upload", (req, res) => {
   //check if file was uploaded
   if (!req.files || !req.files.file) {
     return res.status(400).json({ error: "No file uploaded" });
